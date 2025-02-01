@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace App.Repositories.Products
 {
-    public class ProductRepository : GenericRepository<Product>, IProductRepository
+    public class ProductRepository : GenericRepository<Product, int>, IProductRepository
     {
         public ProductRepository(AppDbContext context) : base(context)
         {

@@ -123,12 +123,12 @@ namespace App.Services.Categories
         {
             var category = await _categoryRepository.GetByIdAsync(id);
 
-            if(category is null)
-            {
-                return ServiceResult.Fail("Kategori bulunamadı", HttpStatusCode.NotFound);
-            }
+            //if(category is null)
+            //{
+            //    return ServiceResult.Fail("Kategori bulunamadı", HttpStatusCode.NotFound);
+            //}
 
-            _categoryRepository.Delete(category);
+            _categoryRepository.Delete(category!);
             await _unitOfWork.SaveChangesAsync();
 
             return ServiceResult.Success(HttpStatusCode.NoContent);

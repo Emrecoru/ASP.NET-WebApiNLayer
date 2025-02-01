@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace App.Repositories.Products
 {
-    public class Product : IAuditEntity
+    public class Product : BaseEntity<int>, IAuditEntity
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
 
         public string Name { get; set; } = default!;
 

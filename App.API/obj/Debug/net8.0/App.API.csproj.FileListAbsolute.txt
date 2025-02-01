@@ -63,7 +63,6 @@ C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\obj\Debug\net8.0\App.API.Ge
 C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\obj\Debug\net8.0\App.API.AssemblyInfoInputs.cache
 C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\obj\Debug\net8.0\App.API.AssemblyInfo.cs
 C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\obj\Debug\net8.0\App.API.csproj.CoreCompileInputs.cache
-C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\obj\Debug\net8.0\App.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\obj\Debug\net8.0\App.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\obj\Debug\net8.0\staticwebassets.development.json
@@ -149,3 +148,4 @@ C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\bin\Debug\net8.0\FluentVali
 C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\App.API\obj\Debug\net8.0\App.API.sourcelink.json

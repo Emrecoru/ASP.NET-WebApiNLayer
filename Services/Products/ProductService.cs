@@ -122,8 +122,8 @@ namespace App.Services.Products
         public async Task<ServiceResult> UpdateAsync(UpdateProductRequest request)
         {
             var product = await productRepository.GetByIdAsync(request.Id);
-            
-            if(product is null)
+
+            if (product is null)
             {
                 return ServiceResult.Fail("Product not found.", HttpStatusCode.NotFound);
             }
@@ -141,7 +141,7 @@ namespace App.Services.Products
 
             product = _mapper.Map(request, product);
 
-            productRepository.Update(product);
+            productRepository.Update(product!);
 
             await _unitOfWork.SaveChangesAsync();
 
@@ -169,12 +169,12 @@ namespace App.Services.Products
         {
             var product = await productRepository.GetByIdAsync(id);
 
-            if(product is null)
-            {
-                return ServiceResult.Fail("Product not found", HttpStatusCode.NotFound);
-            }
+            //if(product is null)
+            //{
+            //    return ServiceResult.Fail("Product not found", HttpStatusCode.NotFound);
+            //}
 
-            productRepository.Delete(product);
+            productRepository.Delete(product!);
 
             await _unitOfWork.SaveChangesAsync();
 

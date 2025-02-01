@@ -13,6 +13,7 @@ using FluentValidation;
 using System.Reflection;
 using App.Services.ExceptionHandlers;
 using App.Services.Categories;
+using App.Services.Filters;
 
 namespace App.Services.Extensions
 {
@@ -33,6 +34,8 @@ namespace App.Services.Extensions
             services.AddExceptionHandler<CriticalExceptionHandler>();
 
             services.AddExceptionHandler<GlobalExceptionHandler>();
+
+            services.AddScoped(typeof(NotFoundFilter<,>));
 
             return services;
         }

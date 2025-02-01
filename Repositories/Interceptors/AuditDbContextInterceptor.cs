@@ -14,7 +14,7 @@ namespace App.Repositories.Interceptors
         private static readonly Dictionary<EntityState, Action<DbContext, IAuditEntity>> Behaviors = new()
         {
             {EntityState.Added, AddBehavior },
-            {EntityState.Modified, ModifiedBehavior }
+            {EntityState.Modified, ModifiedBehavior }      
         };
 
         private static void AddBehavior(DbContext context, IAuditEntity auditEntity)
@@ -34,6 +34,11 @@ namespace App.Repositories.Interceptors
             foreach(var entityEntry in eventData.Context!.ChangeTracker.Entries().ToList())
             {
                 if(entityEntry.Entity is not IAuditEntity auditEntity)
+                {
+                    continue;
+                }
+
+                if(entityEntry.State is not (EntityState.Modified or EntityState.Added))
                 {
                     continue;
                 }

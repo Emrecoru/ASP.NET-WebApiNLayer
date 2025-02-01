@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace App.Repositories
 {
-    public interface IGenericRepository<T> where T : class
+    public interface IGenericRepository<T, TId> where T : class where TId : struct
     {
         IQueryable<T> GetAll();
 
@@ -20,5 +20,7 @@ namespace App.Repositories
         void Update(T entity);
 
         void Delete(T entity);
+
+        ValueTask<bool> AnyAsync(TId id);
     }
 }

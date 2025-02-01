@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace App.Repositories
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T, TId> : IGenericRepository<T, TId> where T : BaseEntity<TId> where TId : struct
     {
         protected AppDbContext Context;
         private readonly DbSet<T> _dbSet;
@@ -47,6 +47,11 @@ namespace App.Repositories
         public IQueryable<T> Where(Expression<Func<T, bool>> predicate)
         {
             return _dbSet.Where(predicate).AsNoTracking();
+        }
+
+        public async ValueTask<bool> AnyAsync(TId id)
+        {
+            return await _dbSet.AnyAsync(x => x.Id.Equals(id));
         }
     }
 }
