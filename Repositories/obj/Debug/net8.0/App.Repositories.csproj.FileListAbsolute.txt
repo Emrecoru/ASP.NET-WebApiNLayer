@@ -1,0 +1,14 @@
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\bin\Debug\net8.0\App.Repositories.deps.json
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\bin\Debug\net8.0\App.Repositories.runtimeconfig.json
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\bin\Debug\net8.0\App.Repositories.dll
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\bin\Debug\net8.0\App.Repositories.pdb
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\obj\Debug\net8.0\App.Repositories.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\obj\Debug\net8.0\App.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\obj\Debug\net8.0\App.Repositories.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\obj\Debug\net8.0\App.Repositories.AssemblyInfo.cs
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\obj\Debug\net8.0\App.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\obj\Debug\net8.0\App.Repositories.dll
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\obj\Debug\net8.0\refint\App.Repositories.dll
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\obj\Debug\net8.0\App.Repositories.pdb
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\obj\Debug\net8.0\App.Repositories.genruntimeconfig.cache
+C:\Users\pc\source\repos\NetCoreApiWebNLayer\Repositories\obj\Debug\net8.0\ref\App.Repositories.dll
